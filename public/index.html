@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahil Shah - Java Web Developer & Cybersecurity Specialist</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Open+Sans:wght@400;500&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body class="min-h-screen relative overflow-x-hidden">
+    <!-- Loading Animation -->
+    <div id="loadingAnimation" class="fixed top-0 left-0 w-full h-full bg-[#0a0a12] z-50 flex flex-col items-center justify-center overflow-hidden">
+        <div class="loader-content">
+            <div class="code-lines">
+                <div class="code-line">
+                    <span class="code-keyword">import</span> <span class="code-normal">{ Development, Cybersecurity, DataSystems }</span> <span class="code-keyword">from</span> <span class="code-string">'sahil-shah'</span>;
+                </div>
+                <div class="code-line">
+                    <span class="code-keyword">class</span> <span class="code-class">Portfolio</span> <span class="code-keyword">extends</span> <span class="code-class">FullStackDeveloper</span> {
+                </div>
+                <div class="code-line pl-4">
+                    <span class="code-keyword">constructor</span>() {
+                </div>
+                <div class="code-line pl-8">
+                    <span class="code-keyword">super</span>();
+                </div>
+                <div class="code-line pl-8">
+                    <span class="code-normal">this</span>.<span class="code-property">skills</span> = [<span class="code-string">'Java'</span>, <span class="code-string">'Python'</span>, <span class="code-string">'SQL'</span>, <span class="code-string">'React'</span>];
+                </div>
+                <div class="code-line pl-8">
+                    <span class="code-normal">this</span>.<span class="code-property">specialization</span> = <span class="code-string">'EIDR Integration'</span>;
+                </div>
+                <div class="code-line pl-4">}
+                </div>
+                <div class="code-line pl-4">
+                    <span class="code-comment">// Loading portfolio components...</span>
+                </div>
+                <div class="code-line pl-4">
+                    <span class="code-keyword">async</span> <span class="code-function">initialize</span>() {
+                </div>
+                <div class="code-line typing-line pl-8">
+                    <span class="code-keyword">await</span> <span class="code-function">loadPortfolio</span>();
+                </div>
+            </div>
+            <div class="binary-stream">
+                10101110 01001100 01001111 01000001 01000100 01001001 01001110 01000111
+            </div>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+            <div class="loader-text code-font">
+                <span class="text-xs tracking-wider text-gray-400">Initializing Portfolio</span>
+                <span class="dots">
+                    <span class="dot">.</span>
+                    <span class="dot">.</span>
+                    <span class="dot">.</span>
+                </span>
+            </div>
+            <div class="tech-matrix">
+                <div class="tech-icon" data-tech="java"><i class="fab fa-java"></i></div>
+                <div class="tech-icon" data-tech="python"><i class="fab fa-python"></i></div>
+                <div class="tech-icon" data-tech="database"><i class="fas fa-database"></i></div>
+                <div class="tech-icon" data-tech="security"><i class="fas fa-shield-alt"></i></div>
+                <div class="tech-icon" data-tech="web"><i class="fas fa-code"></i></div>
+                <div class="tech-icon" data-tech="cloud"><i class="fas fa-cloud"></i></div>
+            </div>
+        </div>
+        <div class="circuit-paths"></div>
+    </div>
+    
+    <div class="circuit-bg"></div>
+    <div class="container mx-auto px-4 max-w-6xl relative z-10" id="mainContent">
+        <!-- Navigation -->
+        <nav class="flex justify-between items-center py-8">
+            <div class="text-2xl font-bold gradient-text code-font">
+                Sahil Shah <span class="terminal-effect">></span>
+            </div>
+            <div class="space-x-8 text-white">
+                <a href="#home" class="hover:text-accent transition-colors">About</a>
+                <a href="#skills" class="hover:text-accent transition-colors">Skills</a>
+                <a href="#experience" class="hover:text-accent transition-colors">Experience</a>
+                <a href="#projects" class="hover:text-accent transition-colors">Projects</a>
+                <a href="#contact" class="hover:text-accent transition-colors">Contact</a>
+            </div>
+        </nav>
+
+        <!-- Home Section -->
+        <section id="home" class="min-h-[80vh] flex items-center pt-16">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="flex justify-center order-last md:order-first">
+                    <div class="w-72 h-72 rounded-full profile-border overflow-hidden">
+                        <img src="/images/profilepic.jpg" alt="Sahil Shah" class="w-full h-full object-cover">
+                    </div>
+                </div>
+                <div>
+                    <h1 class="text-5xl font-bold mb-6">
+                        <span class="gradient-text">Java Web Developer</span>
+                        <span class="terminal-effect">_</span>
+                    </h1>
+                    <p class="text-xl mb-8 leading-relaxed">
+                        Welcome to my digital portfolio! My name is <span class="text-accent font-medium">Sahil Shah</span>, and I am a results-driven Computer Systems Technology student with expertise in cybersecurity, Java development, and hardware systems integration. Building secure, efficient, and innovative digital solutions.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#contact" class="btn-primary text-white px-8 py-3 rounded-full font-medium">
+                            Contact Me
+                        </a>
+                        <a href="#projects" class="btn-outline px-8 py-3 rounded-full font-medium">
+                            View Projects
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+               <section id="about" class="pt-8 pb-12 -mt-16">
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <h2 class="text-3xl font-bold mb-4 gradient-text">About Me</h2>
+                        <p class="mb-4 text-lg leading-relaxed">
+                            I am a results-driven Computer Science major with a strong passion for technology, system design, and data-driven decision-making. My expertise spans database management, system analysis, networking, and hardware assembly, enabling me to bridge the gap between software and hardware solutions.
+                        </p>
+                        <p class="text-lg leading-relaxed">
+                            Proficient in Java, Python, and SQL, I have applied my programming expertise to optimize system performance and streamline processes. Beyond technical expertise, I am passionate about solving complex challenges through innovative programming and analytical problem-solving. My goal is to contribute to cutting-edge IT solutions that drive efficiency and technological advancement.
+                        </p>
+                    </div>
+                    <div class="bg-[rgba(43,58,103,0.3)] p-6 rounded-xl border border-[rgba(73,106,129,0.5)]">
+                        <h3 class="text-xl font-semibold mb-4 text-accent">Education</h3>
+                        <div class="experience-item">
+                            <h4 class="text-lg font-medium mb-1">Diploma in Computer Systems Technology</h4>
+                            <p class="text-accent mb-2">Expected Graduation: June 2025</p>
+                            <p>Specialized in cybersecurity and software development with hands-on hardware integration.</p>
+                        </div>
+                        
+                        <h3 class="text-xl font-semibold mt-6 mb-4 text-accent">Certifications</h3>
+                        <ul class="space-y-2">
+                            <li class="flex items-center"><i class="fas fa-shield-alt mr-3 text-accent"></i> CompTIA Security+</li>
+                            <li class="flex items-center"><i class="fab fa-java mr-3 text-accent"></i> Oracle Certified Professional Java Programmer</li>
+                            <li class="flex items-center"><i class="fas fa-network-wired mr-3 text-accent"></i> Cisco CCNA Security</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-20">
+            <h2 class="text-4xl font-bold text-center mb-16 gradient-text">Skills & Technologies</h2>
+            <div class="grid md:grid-cols-4 gap-6">
+                <div class="skill-card p-6">
+                    <div class="text-3xl mb-4 text-accent"><i class="fas fa-lock"></i></div>
+                    <h3 class="text-xl font-semibold mb-4 text-accent">Cybersecurity</h3>
+                    <ul class="space-y-2">
+                        <li>Penetration Testing</li>
+                        <li>Network Security</li>
+                        <li>Cryptography</li>
+                        <li>Vulnerability Assessment</li>
+                    </ul>
+                </div>
+                <div class="skill-card p-6">
+                    <div class="text-3xl mb-4 text-accent"><i class="fas fa-code"></i></div>
+                    <h3 class="text-xl font-semibold mb-4 text-accent">Programming</h3>
+                    <ul class="space-y-2">
+                        <li>Java (Advanced)</li>
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="skill-card p-6">
+                    <div class="text-3xl mb-4 text-accent"><i class="fas fa-globe"></i></div>
+                    <h3 class="text-xl font-semibold mb-4 text-accent">Web Development</h3>
+                    <ul class="space-y-2">
+                        <li>Spring Boot</li>
+                        <li>React</li>
+                        <li>Full-stack Development</li>
+                        <li>Secure Architectures</li>
+                    </ul>
+                </div>
+                <div class="skill-card p-6">
+                    <div class="text-3xl mb-4 text-accent"><i class="fas fa-microchip"></i></div>
+                    <h3 class="text-xl font-semibold mb-4 text-accent">Hardware</h3>
+                    <ul class="space-y-2">
+                        <li>Computer Architecture</li>
+                        <li>Embedded Systems</li>
+                        <li>IoT Security</li>
+                        <li>Hardware Integration</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="py-20">
+            <h2 class="text-4xl font-bold text-center mb-16 gradient-text">Work Experience</h2>
+            <div class="max-w-3xl mx-auto">
+                <div class="experience-item">
+                    <h3 class="text-xl font-semibold mb-1">EIDR Integration Specialist & Team Coordinator</h3>
+                    <p class="text-accent mb-2">Entertainment Identifier Registry • Los Angeles • August 2023 - April 2024</p>
+                    <ul class="list-disc pl-5 space-y-1">
+                        <li>Led integration of AI-powered language processing tools with EIDR database systems</li>
+                        <li>Coordinated a team project achieving 98.2% accuracy rate in language identification</li>
+                        <li>Developed solutions for enhancing metadata accuracy through AI-driven analysis</li>
+                        <li>Implemented cloud-based architecture for scalable and reliable real-time processing</li>
+                    </ul>
+                </div>
+                
+                <div class="experience-item">
+                    <h3 class="text-xl font-semibold mb-1">Sales Associate</h3>
+                    <p class="text-accent mb-2">Bath & Body Works • Feb 2024 - Present</p>
+                    <ul class="list-disc pl-5 space-y-1">
+                        <li>Enhanced customer engagement through personalized product recommendations</li>
+                        <li>Developed effective sales presentations and email marketing strategies</li>
+                        <li>Collaborated with team members to boost sales and improve customer satisfaction</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <h3 class="text-xl font-semibold mb-1">Seasonal Sales Associate</h3>
+                    <p class="text-accent mb-2">TJX Canada – Winners, Marshalls, HomeSense • Oct 2023 - Jan 2024</p>
+                    <ul class="list-disc pl-5 space-y-1">
+                        <li>Provided exceptional customer service in a fast-paced retail environment</li>
+                        <li>Maintained organized merchandise displays and inventory management</li>
+                        <li>Assisted customers with product selections and returns processing</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-20">
+            <h2 class="text-4xl font-bold text-center mb-16 gradient-text">Featured Projects</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="skill-card p-6">
+                    <div class="text-3xl mb-4 text-accent"><i class="fas fa-university"></i></div>
+                    <h3 class="text-xl font-semibold mb-4 text-accent">Project Emmy - AI Language Tool</h3>
+                    <p class="mb-4">Led development of an AI-powered language processing tool for the Entertainment Identifier Registry (EIDR) achieving 98.2% accuracy in language identification.</p>
+                    <div class="mt-6">
+                        <a href="https://github.com/sts111111/project-emmy" class="btn-primary text-white px-4 py-2 rounded-full text-sm">
+                            View Project <i class="fas fa-external-link-alt ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="skill-card p-6">
+                    <div class="text-3xl mb-4 text-accent"><i class="fas fa-shield-alt"></i></div>
+                    <h3 class="text-xl font-semibold mb-4 text-accent">Network Guardian</h3>
+                    <p class="mb-4">Custom intrusion detection system that combines hardware sensors with software analysis to identify network threats in real-time.</p>
+                    <div class="mt-6">
+                        <a href="https://github.com/sts111111/NetGuardian" class="btn-primary text-white px-4 py-2 rounded-full text-sm">
+                            View Project <i class="fas fa-external-link-alt ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="skill-card p-6">
+                    <div class="text-3xl mb-4 text-accent"><i class="fas fa-database"></i></div>
+                    <h3 class="text-xl font-semibold mb-4 text-accent">Database Management System</h3>
+                    <p class="mb-4">Developed a comprehensive database management system using SQL and Java with an intuitive interface for data visualization and analysis.</p>
+                    <div class="mt-6">
+                        <a href="https://github.com/sts111111/DBMS-Project" class="btn-primary text-white px-4 py-2 rounded-full text-sm">
+                            View Project <i class="fas fa-external-link-alt ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20">
+            <h2 class="text-4xl font-bold text-center mb-16 gradient-text">Get In Touch</h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-2xl font-semibold mb-6 text-accent">Contact Information</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <i class="fas fa-envelope text-accent mr-4 text-xl"></i>
+                            <a href="mailto:sahiltshah10@gmail.com" class="hover:text-accent transition-colors">sahiltshah10@gmail.com</a>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-phone-alt text-accent mr-4 text-xl"></i>
+                            <span>+1 (306) 533-0421</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-map-marker-alt text-accent mr-4 text-xl"></i>
+                            <span>Regina, Saskatchewan, Canada</span>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-10">
+                        <h3 class="text-2xl font-semibold mb-6 text-accent">Connect With Me</h3>
+                        <div class="flex space-x-4">
+                            <a href="https://www.linkedin.com/in/sahil-shah-b85156210" class="w-10 h-10 rounded-full bg-[rgba(43,58,103,0.3)] border border-[rgba(73,106,129,0.5)] flex items-center justify-center hover:bg-accent hover:text-[#0a0a12] transition-colors">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/sts111111" class="w-10 h-10 rounded-full bg-[rgba(43,58,103,0.3)] border border-[rgba(73,106,129,0.5)] flex items-center justify-center hover:bg-accent hover:text-[#0a0a12] transition-colors">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://hackthebox.eu/users/sahilshah" class="w-10 h-10 rounded-full bg-[rgba(43,58,103,0.3)] border border-[rgba(73,106,129,0.5)] flex items-center justify-center hover:bg-accent hover:text-[#0a0a12] transition-colors">
+                                <i class="fas fa-cube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <form id="contactForm" class="space-y-4">
+                        <div>
+                            <input type="text" id="name" placeholder="Your Name" class="contact-input w-full px-4 py-3 rounded-lg focus:outline-none">
+                        </div>
+                        <div>
+                            <input type="email" id="email" placeholder="Your Email" class="contact-input w-full px-4 py-3 rounded-lg focus:outline-none">
+                        </div>
+                        <div>
+                            <textarea id="message" placeholder="Your Message" rows="5" class="contact-input w-full px-4 py-3 rounded-lg focus:outline-none"></textarea>
+                        </div>
+                        <div id="formStatus" class="hidden"></div>
+                        <button type="submit" class="btn-primary text-white px-6 py-3 rounded-lg w-full font-medium">
+                            Send Message <i class="fas fa-paper-plane ml-2"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="py-8 border-t border-[rgba(73,106,129,0.3)] text-center">
+            <p class="text-sm text-gray-400">© 2025 Sahil Shah. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
